@@ -5,7 +5,7 @@ I begin to learn HTML in Saturday, 3 June 2017
 
 ### Sources
 
-1. HTML guide in Chinese in [w3school](http://www.w3school.com.cn/html/index.asp)
+1. HTML guide in Chinese on [w3school](http://www.w3school.com.cn/html/index.asp)
 
 ### Exercise
 
