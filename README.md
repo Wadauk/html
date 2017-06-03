@@ -13,9 +13,9 @@ Chapter 01: [HTML 简介](http://www.w3school.com.cn/html/html_intro.asp)
 
 - exercise: [c01-1](https://wadauk.github.io/html/w3school/chapter01/e1.html)
 ```markdown
-_Rewrite following example code_
+__Rewrite following example code__
 ```
 - exercise: [c01-2](https://wadauk.github.io/html/w3school/chapter01/e2.html)
 ```markdown
-_A simple resume_
+__A simple resume__
 ```
