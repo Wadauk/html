@@ -9,31 +9,31 @@ I began to learn HTML in Saturday, 3 June 2017
 
 ### Exercise
 
-Chapter 01: [HTML 简介](http://www.w3school.com.cn/html/html_intro.asp)
+**Chapter 01**: [HTML 简介](http://www.w3school.com.cn/html/html_intro.asp)
 
 - exercise: [c01-1](https://wadauk.github.io/html/w3school/chapter01/e1.html)
 ```markdown
-__Rewrite following example code__
+Rewrite following example code
 ```
 - exercise: [c01-2](https://wadauk.github.io/html/w3school/chapter01/e2.html)
 ```markdown
-__A simple resume__
+A simple resume
 ```
 
-Chapter 02: [HTML 编辑器](http://www.w3school.com.cn/html/html_editors.asp)
+**Chapter 02**: [HTML 编辑器](http://www.w3school.com.cn/html/html_editors.asp)
 
 - exercise: [c02-1](https://wadauk.github.io/html/w3school/chapter02/e1.html)
 ```markdown
-__3 levels heading__
+3 levels heading
 ```
 - exercise: [c02-2](https://wadauk.github.io/html/w3school/chapter02/e2.html)
 ```markdown
-__Resume with 2 levels heading__
+Resume with 2 levels heading
 ```
 
-Chapter 03: [基本的 HTML 标签 - 四个实例](http://www.w3school.com.cn/html/html_basic.asp)
+**Chapter 03**: [基本的 HTML 标签 - 四个实例](http://www.w3school.com.cn/html/html_basic.asp)
 
 - exercise: [c03-1](https://wadauk.github.io/html/w3school/chapter03/e1.html)
 ```markdown
-__An introduction about galaxy with a picture__
+An introduction about galaxy with a picture
 ```
