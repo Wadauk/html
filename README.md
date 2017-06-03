@@ -1,5 +1,3 @@
-<html>
-<body>
 ## Welcome to Wadauk' Pages for learning HTML
 
 I begin to learn HTML at Saturday, 3 June 2017
@@ -15,7 +13,6 @@ Chapter 01: [HTML 简介](http://www.w3school.com.cn/html/html_intro.asp)
 
 - exercise: [c01-1](https://wadauk.github.io/html/w3school/chapter01/e1.html)
 
-</body>
 ```markdown
 Syntax highlighted code block
 
@@ -43,5 +40,3 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 ### Support or Contact
 
 Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
-
-</html>
