@@ -19,6 +19,14 @@ __Rewrite following example code__
 ```markdown
 __A simple resume__
 ```
+
 Chapter 02: [HTML 编辑器](http://www.w3school.com.cn/html/html_editors.asp)
 
-- exercise: [c02-1]()
+- exercise: [c02-1](https://wadauk.github.io/html/w3school/chapter02/e1.html)
+```markdown
+__3 levels heading__
+```
+- exercise: [c02-2](https://wadauk.github.io/html/w3school/chapter02/e2.html)
+```markdown
+__Resume with 2 levels heading__
+```
