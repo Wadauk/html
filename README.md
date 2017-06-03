@@ -1,12 +1,11 @@
-## Welcome to GitHub Pages
+## Welcome to Wadauk' Pages for learning HTML
 
-You can use the [editor on GitHub](https://github.com/Wadauk/html/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+I begin to learn HTML at Saturday, 3 June 2017
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+### Sources
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+1. HTML guide in Chinese in [w3school](http://www.w3school.com.cn/html/index.asp)
 
 ```markdown
 Syntax highlighted code block
