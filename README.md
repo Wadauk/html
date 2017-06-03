@@ -19,3 +19,6 @@ __Rewrite following example code__
 ```markdown
 __A simple resume__
 ```
+Chapter 02: [HTML 编辑器](http://www.w3school.com.cn/html/html_editors.asp)
+
+- exercise: [c02-1]()
