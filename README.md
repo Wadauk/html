@@ -8,8 +8,11 @@ I begin to learn HTML at Saturday, 3 June 2017
 1. HTML guide in Chinese in [w3school](http://www.w3school.com.cn/html/index.asp)
 
 ### Exercise
+
 Chapter 01
+
   guide: [HTML 简介](http://www.w3school.com.cn/html/html_intro.asp)
+
   exercise: [c01-1]()
 
 ```markdown
