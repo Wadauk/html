@@ -30,3 +30,10 @@ __3 levels heading__
 ```markdown
 __Resume with 2 levels heading__
 ```
+
+Chapter 03: [基本的 HTML 标签 - 四个实例](http://www.w3school.com.cn/html/html_basic.asp)
+
+- exercise: [c03-1](https://wadauk.github.io/html/w3school/chapter03/e1.html)
+```markdown
+__A introduction about galaxy with a picture__
+```
