@@ -1,6 +1,6 @@
 ## Welcome to Wadauk' Pages for learning HTML
 
-I begin to learn HTML at Saturday, 3 June 2017
+I begin to learn HTML in Saturday, 3 June 2017
 
 
 ### Sources
