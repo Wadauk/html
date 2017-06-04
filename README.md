@@ -37,3 +37,7 @@ Resume with 2 levels heading
 ```markdown
 An introduction about galaxy with a picture
 ```
+- exercise: [c03-2](https://wadauk.github.io/html/w3school/chapter03/e2.html)
+```markdown
+Resume with an avatar
+```
