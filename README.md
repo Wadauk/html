@@ -47,3 +47,4 @@ Resume with an avatar
 -exercise: [c04-1](https://wadauk.github.io/html/w3school/chapter04/e1.html)
 ```markdown
 Resume with aliceBlue background, some center aligned paragraphes, and italic style in some paragraphes
+```
