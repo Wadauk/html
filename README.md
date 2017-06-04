@@ -48,7 +48,7 @@ Resume with an avatar
 ```markdown
 Resume with aliceBlue background, some center aligned paragraphes, and italic style in some paragraphes
 ```
-**Chapter 05**: []()
+**Chapter 05**: [HTML 标题](http://www.w3school.com.cn/html/html_headings.asp)
 
 - exercise: [c05-1](https://wadauk.github.io/html/w3school/chapter05/e1.html)
 ```markdown
