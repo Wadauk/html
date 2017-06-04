@@ -48,3 +48,9 @@ Resume with an avatar
 ```markdown
 Resume with aliceBlue background, some center aligned paragraphes, and italic style in some paragraphes
 ```
+**Chapter 05**: []()
+
+- exercise: [c05-1](https://wadauk.github.io/html/w3school/chapter05/e1.html)
+```markdown
+Resume with horizontal rule for dividing different information block and a comment for commentating some words in code level
+```
