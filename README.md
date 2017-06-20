@@ -55,3 +55,10 @@ Resume with aliceBlue background, some center aligned paragraphes, and italic st
 ```markdown
 Resume with horizontal rule for dividing different information block and a comment for commentating some words in code level
 ```
+
+**Chapter 06**: [HTML 样式](http://www.w3school.com.cn/html/html_styles.asp)
+
+- exercise: [c06-1](https://wadauk.github.io/html/w3school/chapter06/e1.html)
+```markdown
+set background color for the 2-level headers
+```
