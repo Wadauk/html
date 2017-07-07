@@ -1,0 +1,362 @@
+<!doctype html>
+<html><head><title>1000-赠书</title><meta charset="UTF-8"><link href="http://fonts.googleapis.com/css?family=Crimson+Text:400,400italic,700,700italic|Roboto:400,700,700italic,400italic" type="text/css" rel="stylesheet"><style>/*
+ * Copyright 2014 Quip
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may
+ * not use this file except in compliance with the License. You may obtain
+ * a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations
+ * under the License.
+ */
+
+body {
+    font-size: 15px;
+    color: #333;
+    background: #fff;
+    padding: 60px 95px;
+    max-width: 900px;
+    margin: 0 auto;
+    text-rendering: optimizeLegibility;
+    font-feature-settings: "kern";
+    font-kerning: normal;
+    -moz-font-feature-settings: "kern";
+    -webkit-font-feature-settings: "kern";
+}
+
+/* Headings */
+h1, h2, h3, th {
+    font-family: Roboto, sans-serif;
+    font-weight: 700;
+    margin: 0;
+    margin-top: 1.25em;
+    margin-bottom: 0.75em;
+}
+
+h1 {
+    font-size: 35px;
+    line-height: 42px;
+}
+
+h1:first-child {
+    margin-top: 0;
+}
+
+h2 {
+    font-size: 18px;
+    line-height: 22px;
+}
+
+h3 {
+    text-transform: uppercase;
+    font-size: 13px;
+    line-height: 16px;
+}
+
+/* Body text */
+body, p, ul, ol, td {
+    font-family: 'Crimson Text', serif;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+blockquote, q {
+    display: block;
+    margin: 1em 0;
+    font-style: italic;
+}
+
+blockquote a, q a {
+    text-decoration: underline;
+}
+
+blockquote {
+    padding-left: 10px;
+    border-left: 4px solid #a6a6a6;
+}
+
+q {
+    color: #a6a6a6;
+    line-height: 40px;
+    font-size: 24px;
+    text-align: center;
+    quotes: none;
+}
+
+q a {
+    color: #a6a6a6;
+}
+
+code, pre {
+    font-family: Consolas, "Liberation Mono", Menlo, "Courier Prime Web", Courier, monospace;
+    background: #f3f3f3;
+}
+
+code {
+    padding: 1px;
+    margin: 0 -1px;
+    border-radius: 3px;
+}
+
+pre {
+    display: block;
+    line-height: 20px;
+    text-shadow: 0 1px white;
+    padding: 5px 5px 5px 30px;
+    white-space: nowrap;
+    position: relative;
+    margin: 1em 0;
+}
+
+pre:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 15px;
+    border-left: solid 1px #dadada;
+}
+
+/* Lists */
+div[data-section-style="5"],
+div[data-section-style="6"],
+div[data-section-style="7"] {
+    margin: 12px 0;
+}
+
+ul {
+    padding: 0 0 0 40px;
+}
+
+ul li {
+    margin-bottom: 0.4em;
+}
+
+/* Bulleted list */
+div[data-section-style="5"] ul {
+    list-style-type: disc;
+}
+div[data-section-style="5"] ul ul {
+    list-style-type: circle;
+}
+div[data-section-style="5"] ul ul ul {
+    list-style-type: square;
+}
+div[data-section-style="5"] ul ul ul ul {
+    list-style-type: disc;
+}
+div[data-section-style="5"] ul ul ul ul ul {
+    list-style-type: circle;
+}
+div[data-section-style="5"] ul ul ul ul ul ul {
+    list-style-type: square;
+}
+
+/* Numbered list */
+div[data-section-style="6"] ul {
+    list-style-type: decimal;
+}
+div[data-section-style="6"] ul ul {
+    list-style-type: lower-alpha;
+}
+div[data-section-style="6"] ul ul ul {
+    list-style-type: lower-roman;
+}
+div[data-section-style="6"] ul ul ul ul {
+    list-style-type: decimal;
+}
+div[data-section-style="6"] ul ul ul ul ul {
+    list-style-type: lower-alpha;
+}
+div[data-section-style="6"] ul ul ul ul ul ul {
+    list-style-type: lower-roman;
+}
+
+/* Checklist */
+div[data-section-style="7"] ul {
+    list-style-type: none;
+}
+
+div[data-section-style="7"] ul li:before {
+    content: "\2610";
+    position: absolute;
+    display: inline;
+    margin-right: 1.2em;
+    margin-left: -1.2em;
+}
+
+div[data-section-style="7"] ul li.parent:before {
+    content: "";
+}
+
+div[data-section-style="7"] ul li.parent {
+    font-weight: bold;
+}
+
+div[data-section-style="7"] ul li.checked {
+    text-decoration: line-through;
+}
+
+div[data-section-style="7"] ul li.checked:before {
+    content: "\2611";
+    text-decoration: none;
+}
+
+/* Tables */
+div[data-section-style="8"] {
+    margin: 12px 0;
+}
+
+table {
+    border-spacing: 0;
+    border-collapse: separate;
+    border: solid 1px #7c7c7c;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .25);
+    table-layout: fixed;
+    position: relative;
+}
+
+table th, table td {
+    padding: 2px 2px 0;
+    min-width: 1.5em;
+    word-wrap: break-word;
+}
+
+table th {
+    border-bottom: 1px solid #ccc;
+    background: #f0f0f0;
+    font-weight: bold;
+    vertical-align: bottom;
+    color: #3a4449;
+    text-align: center;
+}
+
+table td {
+    padding-top: 0;
+    border-left: 1px solid #e1e1e1;
+    border-top: 1px solid #e1e1e1;
+    vertical-align: top;
+}
+
+table td.bold {
+    font-weight: bold;
+}
+
+table td.italic {
+    font-style: italic;
+}
+
+table td.underline {
+    text-decoration: underline;
+}
+
+table td.strikethrough {
+    text-decoration: line-through;
+}
+
+table td.underline.strikethrough {
+    text-decoration: underline line-through;
+}
+
+table td:first-child {
+    border-left: hidden;
+}
+
+table tr:first-child td {
+    border-top: hidden;
+}
+
+/* Images */
+div[data-section-style="11"] {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div[data-section-style="11"][data-section-float="0"] {
+    clear: both;
+    text-align: center;
+}
+
+div[data-section-style="11"][data-section-float="1"] {
+    float: left;
+    clear: left;
+    margin-right: 20px;
+}
+
+div[data-section-style="11"][data-section-float="2"] {
+    float: right;
+    clear: right;
+    margin-left: 20px;
+}
+
+div[data-section-style="11"] img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+hr {
+    width: 70px;
+    margin: 20px auto;
+}
+</style></head><body><h1 id='dQTACAeZWYl'>1000-赠书</h1>
+
+微博@每天学点Perl语言 为纪念关注数达到1000，答谢各位朋友长久的鼓励。关注@每天学点Perl语言，转发此条微博，即可具备抽奖资格。获奖名额有3个：二次转发最多者、评论最感人者、粉丝互动榜榜首。每位获奖者可以从以下11本图书中选择1本。经费出自我微薄的科研生活补助，礼轻情意重，真心感谢。统计截止时间2017年7月22日23时59分59秒。<br/>
+
+（二次转发：比如说，你转发了本微博，其他人转发了你转发的，必须是其他人，不能是本人循环转发。评论最感人：本主页的所有微博、文章都可以评论，也包含在其他微博或网站对我的评论，只要是我能看到的，都在统计范围内。粉丝互动榜：就是微博自己根据转发、评论、点赞这几个指标统计的，这个名额算是历史积累了。）<br/>
+
+书目：<br/>
+
+Perl语言入门<br/>
+
+<div data-section-style='11' style='max-width:40%'><img src='https://quip.com/blob/dQTAAAEwqgI/3i2CElGq73p7KyOZiuaGjQ?a=UEvS3aGa4AqBoHeHjgsIlVaycaGrNzhYr2EFDDiCzbca' id='dQTACAcFu5A' alt='' width='324' height='429'></img></div>生命是序列的。Perl语言是文本数据处理利器。本书是Perl语言入门最佳图书。（目前已读五遍）<br/>
+
+R数据分析与实践<br/>
+
+<div data-section-style='11' style='max-width:42%'><img src='https://quip.com/blob/dQTAAAEwqgI/29MF2DxoI81w8cGOtmwN0g?a=ZETqD8FTBswaKnik3a6RyGtubTnWpCUO99awRb9gNhoa' id='dQTACA9b7LV' alt='' width='337' height='446'></img></div>生命是数字的。R语言是数据统计分析及可视化利器。本书是R语言统计分析入门最佳中文图书。（中国人写的，语言易懂，而且统计过程论证极为详细，统计和R基础看这个就够了）<br/>
+
+R数据可视化手册<br/>
+
+<div data-section-style='11' style='max-width:100%'><img src='https://quip.com/blob/dQTAAAEwqgI/TY18MajGCxZvCapc_YDODA?a=DavCKwOxlizztiNKIiHB80887Ascf0Q3weO4aqjvLLYa' id='dQTACAdQuxW' alt='' width='350' height='350'></img></div>表现力：文字&lt;表格&lt;图形。想用R绘制美观的统计图形？照着书中的示例就能实现。（不会R语言也能画图）<br/>
+
+鸟哥的Linux私房菜<br/>
+
+<div data-section-style='11' style='max-width:100%'><img src='https://quip.com/blob/dQTAAAEwqgI/1hFHnfAwSDz-9rf6GpWMkQ?a=Mo4RCXTgbv7S5MQcwrGZHM8YGI4Ua6YEktkeJa11la0a' id='dQTACAsTEzJ' alt='' width='500' height='500'></img></div>组学数据分析，动辄消耗内存上百G，离不开高性能计算平台。Linux系统稳定高效，是数据分析最常用平台。本书涉及常用命令、shell、vim等最实用功能详解。（有用的其实没几页，不会的靠百度谷歌更快捷）<br/>
+
+Python生物信息数据管理<br/>
+
+<div data-section-style='11' style='max-width:42%'><img src='https://quip.com/blob/dQTAAAEwqgI/dB82KydXP8PmMITovJ_MyA?a=yaaeP0wHzFGat99kexSGNoeBWaTv9v1M2U7Xy1Ec1JAa' id='dQTACAhbW07' alt='' width='341' height='480'></img></div>生命苦短。Python的流行是大势所趋。本书是最好的生信编程入门书。（有的时候不是编程语言不行，而是没有好的入门书，希望其他语言像这本书学习）<br/>
+
+理解生物信息学<br/>
+
+<div data-section-style='11' style='max-width:43%'><img src='https://quip.com/blob/dQTAAAEwqgI/6Cch3J6HPOVY_GQm0coIOg?a=TYPq3mIcfa5hw0uoeuA3iIGbzmCC3KKA7855R94DTFYa' id='dQTACALxSQK' alt='' width='347' height='487'></img></div>生物信息学，方向广泛。用本书建立生物信息学知识框架是最好的选择。（生物信息学领域全球圣经级巨作）<br/>
+
+基因组学2016<br/>
+
+<div data-section-style='11' style='max-width:100%'><img src='https://quip.com/blob/dQTAAAEwqgI/47EPDJoRm6vWYgQ7HPMtXA?a=BrOdfdCUmKbZ0zapwwU66Xt1I8ukmKMI6kygjPKZUoEa' id='dQTACAs9PAi' alt='' width='315' height='423'></img></div>测序已成平常。本书是系统介绍测序技术最好的。（杨焕明院士十年心血）<br/>
+
+生物信息学中的数学方法引论<br/>
+
+<div data-section-style='11' style='max-width:100%'><img src='https://quip.com/blob/dQTAAAEwqgI/j6GZm8yN168A17Dfzl8MnQ?a=bSZBBBs0KwH3C0cgAaflTvTfbXaqaDcP4jzuyVn5b6ga' id='dQTACAejmcj' alt='' width='340' height='500'></img></div>算法是人工智能时代的核心。生物信息工程师终会被取代，但算法工程师不可能被淘汰。本书讲述偏数学，但系统讲解了生物信息学基础算法。（没人讲很难看懂）<br/>
+
+常用生物数据库分析软件<br/>
+
+<div data-section-style='11' style='max-width:100%'><img src='https://quip.com/blob/dQTAAAEwqgI/Qpi6a_988AIq7mMeuc1wBw?a=HXReGAZadO2ycuY1bsaQdLnMyiNKMgfOVFiSWxOpXnYa' id='dQTACAqO96m' alt='' width='268' height='268'></img></div>不要重复造轮子。先学会已有工具，能节约不少时间。本书介绍了生物信息主要方向的经典工具的使用。（不知道从何入手就先把这本书的工具都学个遍吧）<br/>
+
+基因组学概论<br/>
+
+<div data-section-style='11' style='max-width:100%'><img src='https://quip.com/blob/dQTAAAEwqgI/Q_0V-ZRobIxTbSYiOawhPQ?a=zN1EWwazIzVrdc9m8lJfgSpkwCvpoiA8YmG7kzoigxUa' id='dQTACAGLObG' alt='' width='350' height='350'></img></div>唯一一本真正介绍基因组学的书。（不是我说的，胡松年老师亲口说的）<br/>
+
+生物序列分析<br/>
+
+<div data-section-style='11' style='max-width:100%'><img src='https://quip.com/blob/dQTAAAEwqgI/DSgB6ayeUlPoWrO2NHRPcA?a=9oFJmMal5fKtLa3bgvAYUwnkMgKmziYhYjghJt7NI0ka' id='dQTACAs5afQ' alt='' width='350' height='350'></img></div>最为通俗的生物信息算法讲解。（也没通俗到哪里去，只是相较纯数学的图书，看的时候还要多参考资料）<br/>
+
+</body></html>
